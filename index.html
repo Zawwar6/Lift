@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="building">
+        <div class="floors">
+            <div class="floor" id="floor-3">3</div>
+            <div class="floor" id="floor-2">2</div>
+            <div class="floor" id="floor-1">1</div>
+            <div class="floor" id="floor-0">0</div>
+        </div>
+        <div class="lift" id="lift"></div>
+    </div>
+    <div class="controls">
+        <button onclick="moveLift(3)">3</button>
+        <button onclick="moveLift(2)">2</button>
+        <button onclick="moveLift(1)">1</button>
+        <button onclick="moveLift(0)">0</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
